@@ -1,8 +1,8 @@
 # Ansible with AWS EC2
 
 ## Setup
-  - `sudo apt-get install python awscli ansible`
-  - `sudo pip install boto boto3`
+  - `sudo apt-get install python ansible`
+  - `sudo pip install boto boto3 awscli`
   
 ## Configure aws cli
 `aws configure`
