@@ -37,3 +37,4 @@ http://docs.ansible.com/ansible/latest/intro_getting_started.html
 http://docs.ansible.com/ansible/latest/intro_dynamic_inventory.html#example-aws-ec2-external-inventory-script
 http://docs.pythonboto.org/en/latest/boto_config_tut.html
 http://docs.ansible.com/ansible/latest/intro_configuration.html
+http://docs.ansible.com/ansible/latest/guide_aws.html
