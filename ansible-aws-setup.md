@@ -1,5 +1,8 @@
 # Ansible with AWS EC2
 
+## Description
+When the Ansible is interacting with a specific server, the EC2 inventory script is called again with the --host HOST option. This looks up the HOST in the index cache to get the instance ID, and then makes an API call to AWS to get information about that specific instance. It then makes information about that instance available as variables to your playbooks. Each variable is prefixed by ec2_.
+
 ## Setup
   - `sudo apt-get install python ansible`
   - `sudo pip install boto boto3 awscli`
