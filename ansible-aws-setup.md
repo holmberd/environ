@@ -1,6 +1,9 @@
 # Ansible with AWS EC2
 
-## Description
+## Ansible Description
+Ansible use a declarative model, calculating and executing the actions required to reach a specified final state. Furthermore, they achieve a form of idempotence by checking the current state before they begin, and if the current state matches the specified final state, doing nothing.
+
+## EC2 Dynamic Host Description
 When the Ansible is interacting with a specific server, the EC2 inventory script is called again with the --host HOST option. This looks up the HOST in the index cache to get the instance ID, and then makes an API call to AWS to get information about that specific instance. It then makes information about that instance available as variables to your playbooks. Each variable is prefixed by ec2_.
 
 ## Setup
