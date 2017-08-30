@@ -1,7 +1,7 @@
 # Ansible with AWS EC2
 
 ## Ansible Description
-Ansible use a declarative model, calculating and executing the actions required to reach a specified final state. Furthermore, they achieve a form of idempotence by checking the current state before they begin, and if the current state matches the specified final state, doing nothing. Ansible can also be used to execute various commands on the hosts in your inventory.
+Ansible use a declarative model, calculating and executing the actions required to reach a specified final state. Furthermore, they achieve a form of idempotence by checking the current state before they begin, and if the current state matches the specified final state, doing nothing. Ansible can also be used to execute various commands/tasks on the hosts in your inventory.
 
 ## Playbooks Description
 Playbooks are Ansible’s configuration, deployment, and orchestration language. They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process. If Ansible modules are the tools in your workshop, playbooks are your instruction manuals, and your inventory of hosts are your raw material.
