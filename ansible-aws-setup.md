@@ -9,6 +9,9 @@ Playbooks are Ansible’s configuration, deployment, and orchestration language.
 ## EC2 Dynamic Host Description
 When the Ansible is interacting with a specific server, the EC2 inventory script is called again with the --host HOST option. This looks up the HOST in the index cache to get the instance ID, and then makes an API call to AWS to get information about that specific instance. It then makes information about that instance available as variables to your playbooks. Each variable is prefixed by ec2_.
 
+## AWS Profiles
+**Important** The AWS credentials file uses a different naming format than the CLI config file for named profiles. Do not include the `profile` prefix when configuring a named profile in the AWS credentials file.
+
 ## Setup
   - `sudo apt-get install python ansible`
   - `sudo pip install boto boto3 awscli`
