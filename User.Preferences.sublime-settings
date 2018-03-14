@@ -1,9 +1,10 @@
 {
-	// base settings
-	"auto_complete": false,
-	"sublimelinter": false,
-	"word_wrap": true,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"rulers": [120]	
+  "auto_complete": false,
+  "ignored_packages": ["Vintage"],
+  "rulers": [120],
+  "sublimelinter": false,
+  "tab_size": 2,
+  "theme": "Agila Monokai.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "word_wrap": true
 }
